@@ -1,2 +1,6 @@
 glove.6B
 __pycache__
+venv
+runs
+./dataset/flickr8k/
+./checkpoint
