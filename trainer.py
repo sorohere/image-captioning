@@ -168,9 +168,9 @@ def train(config, writer, device):
             optimizer.step()
 
             writer.add_scalar("Train/Step-Loss", loss.item(), train_step)
-            print("Train/Step-Loss", loss.item(), train_step)
+            # print("Train/Step-Loss", loss.item(), train_step)
             writer.add_scalar("Train/Learning-Rate", learning_rate, train_step)
-            print("Train/Learning-Rate", learning_rate, train_step)
+            # print("Train/Learning-Rate", learning_rate, train_step)
 
         # Save the model and optimizer state
         save_checkpoint(decoder, optimizer, start_time, epoch)
