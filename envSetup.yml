@@ -1,0 +1,16 @@
+name: myenv
+channels:
+  - pytorch
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pillow
+  - pip
+  - python
+  - pytorch
+  - tensorboardx
+  - torchvision
+  - pip:
+    - matplotlib
